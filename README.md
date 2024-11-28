@@ -1,14 +1,17 @@
-# 
-## Passo a passo para rodar o projeto
+# Passo a passo para rodar o projeto
 
-1. Instalar o ddev
-2. Clonar o repositório
-3. Rodar o comando ddev start
-4. Rodar ddev drush composer install
-5. Rodar ddev db
-* 
-* 
+1. Instalar o ddev caso não o tenha.
+2. Clonar o repositório 
+3. No terminal rode os seguintes comandos:
+4. Rodar o comando ddev start no repositório
+5. Rodar ddev drush composer install
+6. Rodar o ddev restart 
+7. Rodar o comando cd web/
+8. Rodar o ddev import-db --file=db.sql.gz
+9. Na interface de usuário vá até  Configurações > Desenvolvimento > Sincronização de configuração > importar e selecione o arquivo: config-projetobootcamp-ddev-site-(timestemp).tar.gz, isso dentro da pasta web, depois clique em carregar.
 
+### Aproveite a experiência ❤ 
+ 
 ## Printscreens
 
 Página inicial
